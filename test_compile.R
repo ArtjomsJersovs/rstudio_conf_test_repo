@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 library(tidyverse)
 ipt2 <- installed.packages(fields = "URL") %>%
   as_tibble()
